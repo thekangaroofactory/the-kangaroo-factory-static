@@ -10,13 +10,13 @@
 <body>
 
 <script type="text/javascript">
-
+window.onload = function() {
   var loc = window.location.toString(),
   params = loc.split('?')[1],
   iframe = document.getElementById('myIframe');
   
   iframe.src = iframe.src + '?' + params;
-
+};
 </script>
 
 <iframe id="myIframe" src="https://01994219-c426-d5b6-b9ee-2cf3a6472447.share.connect.posit.cloud/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
