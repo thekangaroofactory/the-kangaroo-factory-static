@@ -10,15 +10,12 @@
 <body>
 
 <script type="text/javascript">
-$(function() {
-  
+
   var loc = window.location.toString(),
   params = loc.split('?')[1],
   iframe = document.getElementById('myIframe');
   
   iframe.src = iframe.src + '?' + params;
-  
-});
 
 </script>
 
